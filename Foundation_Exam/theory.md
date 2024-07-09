@@ -20,7 +20,7 @@ finally:
 
 ## 1.3 Explain the difference between a commit and a push in Git. [2 marks]
 
-The `git commit` is a command that saves the changes locally, but then it is used the `git push` to send it to a remote repository.
+The `git commit` is a command that saves the changes locally, but then `git push` is used to send it to a remote repository.
 
 ## 1.4 Provide examples of two web APIs and describe their functionalities. [4 marks]
 
@@ -42,7 +42,6 @@ The product owner is a role within Agile and four responsabilities that he has a
 
 **Backlog Refinement**: this part is added to dive in depth and review the tickets in order to lead the focus and ensure efficiency.
 
-
 ## 1.6 Name two types of SQL joins and provide an example scenario for each. [4 marks]
 
 **inner join**: when two rows have matching values, it combines them.
@@ -54,15 +53,13 @@ The product owner is a role within Agile and four responsabilities that he has a
 
 ## 1.7 Explain the difference between mutable and immutable data types in Python, provide an example of each. [4 marks]
 
-
-`mutable` data types can be changed even after creating them. For example, when creating a list, you can still update the list itself without mapping over it, basically changing the object.
+`mutable` data types can be changed even after initialization. For example, when creating a list, you can still update the list itself without mapping over it, basically changing the object.
 
 `this_list = [a, b, c]`
+ 
+`immutable` data types in are data that cannot be changed after initialization and they are usually used in functional programming.
 
-`immutable` data types in are data that cannot be changed after creation and they are usually used in functional programming.
-
-In python an a `tuple` is immutable as we cannot append or update anything in the
-
+In python an a `tuple` is immutable as we cannot append or update the data itslef.
 `this_tuple = (a, b, c)`
 
 ## 1.8 Explain both Agile and Waterfall approaches to Software Development, and at least 2 differences between them. [4 marks]
